@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meet Recorder</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <h2>🎥 Meet Recorder</h2>
+
+    <div class="card">
+
+        <h3>Microphone</h3>
+
+        <p id="mic-status">
+            ❌ Permission not granted
+        </p>
+
+        <button id="grant-mic">
+            Grant Permission
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Recording</h3>
+
+        <p id="recording-status">
+            Idle
+        </p>
+
+        <button id="start-recording">
+            ▶ Start Recording
+        </button>
+
+        <button id="stop-recording" disabled>
+            ⏹ Stop Recording
+        </button>
+
+    </div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

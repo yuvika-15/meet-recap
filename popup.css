@@ -1,0 +1,23 @@
+body{
+    width:300px;
+    padding:15px;
+    font-family:Arial,sans-serif;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:12px;
+    margin-bottom:15px;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    cursor:pointer;
+}
+
+h2{
+    text-align:center;
+}
